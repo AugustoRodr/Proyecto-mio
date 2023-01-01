@@ -3,7 +3,7 @@ import pandas as pd
 import os
 
 class Tabla:
-    def __init__(self):# n es la cantidad de columnas dadas por el usuario
+    def __init__(self):
         self.df={}
 
     def crear_df(self,n):
